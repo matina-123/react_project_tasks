@@ -12,7 +12,17 @@ import UserProfile from './Day4handsontask1.jsx'
 import App from './App.jsx'
 import ConditionalRendering from './Day6/conditinalrendering/conditionalrendering.jsx'
 import InitialPage from './Day6/conditinalrendering/initial.jsx'
-import CounterApp from './Day6/day6handsontask/task.jsx'
+// import CounterApp from './Day6/day6handsontask/task.jsx'
+import Counter from './Day6/day6handsontask/task1.jsx'
+import ToggleButton from './Day6/day6handsontask/task2.jsx'
+import TextInputDisplay from './Day6/day6handsontask/task3.jsx'
+import ThemeSwitcher from './Day6/day6handsontask/task4.jsx'
+import ColorPicker from './Day6/day6handsontask/task5.jsx'
+import ToggleImage from './Day6/day6handsontask/task6.jsx'
+import ClickTracker from './Day6/day6handsontask/task7.jsx'
+import PasswordToggle from './Day6/day6handsontask/task8.jsx'
+import RandomQuote from './Day6/day6handsontask/task9.jsx'
+import TrafficLight from './Day6/day6handsontask/task10.jsx'
 // import Dashboard from './Day6/conditinalrendering/dashboard.jsx'
 // import Login from './Day6/conditinalrendering/login.jsx'
 // import ExampleComponent from './task1.jsx'
@@ -34,6 +44,15 @@ createRoot(document.getElementById('root')).render(
   {/* <Login/> */}
   <InitialPage
   isloggedin={false}/>
-  <CounterApp/>
+  <Counter/>
+  <ToggleButton/>
+  <TextInputDisplay/>
+  <ThemeSwitcher/>
+  <ColorPicker/>
+  <ToggleImage/>
+  <ClickTracker/>
+  <PasswordToggle/>
+  <RandomQuote/>
+  <TrafficLight/>
   </StrictMode>,
 )
