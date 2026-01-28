@@ -1,4 +1,4 @@
-import logo from "./assets/image.png";
+// import logo from ".src/assets/image.png";
 function JSXTasks() {
   const fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
   const items = fruits;
@@ -7,7 +7,7 @@ function JSXTasks() {
     <>
       {/* Header */}
       <header>
-        <img src={logo} alt="Logo" width="50" />
+        <img src="./assets/image.png" alt="Logo" width="50" />
         <nav>
           <a href="#">Home</a> | <a href="#">About</a>
         </nav>

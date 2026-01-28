@@ -1,0 +1,10 @@
+.badge{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    background-color: violet;
+    font-size: 40px;
+    border-radius: 20px;
+    width: 25%;
+
+}

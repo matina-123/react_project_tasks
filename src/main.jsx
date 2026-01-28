@@ -3,13 +3,13 @@ import { createRoot } from 'react-dom/client'
  import './button.css'
 // import './badge.css'
 
-import StateExample from './Day6/stateexample.jsx'
-import Greeting from './Day5handsontask1.jsx'
-import Button from './Day4handsontask2.jsx'
-import { Badge } from './extrabadgetask3.jsx'
-import UserInfo from './Day5handsontask2.jsx'
-import UserProfile from './Day4handsontask1.jsx'
-import App from './App.jsx'
+import StateExample from './Day6/classwork/stateexample.jsx'
+import Greeting from './day5/handsontask1.jsx'
+import Button from './day4/handsontask2.jsx'
+import { Badge } from './day5/extrabadgetask.jsx'
+import UserInfo from './day5/handsontask2.jsx'
+import UserProfile from './day4/hansontask1.jsx'
+// import App from './App.jsx'
 import ConditionalRendering from './Day6/conditinalrendering/conditionalrendering.jsx'
 import InitialPage from './Day6/conditinalrendering/initial.jsx'
 // import CounterApp from './Day6/day6handsontask/task.jsx'
@@ -23,6 +23,13 @@ import ClickTracker from './Day6/day6handsontask/task7.jsx'
 import PasswordToggle from './Day6/day6handsontask/task8.jsx'
 import RandomQuote from './Day6/day6handsontask/task9.jsx'
 import TrafficLight from './Day6/day6handsontask/task10.jsx'
+import LoginButton from './Day6/classwork/loginbutton.jsx'
+import LogoutButton from './Day6/classwork/logoutbutton.jsx'
+import DestructuringTasks from './day4/destructuringtask.jsx'
+import EventTasks from './day4/eventtask.jsx'
+import JSXTasks from './day4/jsxtask.jsx'
+import SpreadTasks from './day4/spreadtask.jsx'
+
 // import Dashboard from './Day6/conditinalrendering/dashboard.jsx'
 // import Login from './Day6/conditinalrendering/login.jsx'
 // import ExampleComponent from './task1.jsx'
@@ -38,7 +45,13 @@ createRoot(document.getElementById('root')).render(
    <UserInfo name="John Doe" age={21} />
    <UserProfile name="Jane Smith" age={28} email="jane@example.com"/>
   <StateExample/>
-  <App/>
+  <LoginButton/>
+  <LogoutButton/>
+  
+  <DestructuringTasks/>
+  <EventTasks/>
+  <JSXTasks/>
+  <SpreadTasks/>
    <ConditionalRendering/> 
   {/* <Dashboard/> */}
   {/* <Login/> */}
@@ -54,5 +67,6 @@ createRoot(document.getElementById('root')).render(
   <PasswordToggle/>
   <RandomQuote/>
   <TrafficLight/>
+
   </StrictMode>,
 )

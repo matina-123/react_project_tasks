@@ -9,7 +9,7 @@ function DestructuringTasks() {
 
   return (
     <>
-      <User name="Matina" age={20} />
+      <User name="aluprasad" age={20} />
       <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>+</button>
     </>
