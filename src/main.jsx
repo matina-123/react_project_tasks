@@ -29,6 +29,7 @@ import DestructuringTasks from './day4/destructuringtask.jsx'
 import EventTasks from './day4/eventtask.jsx'
 import JSXTasks from './day4/jsxtask.jsx'
 import SpreadTasks from './day4/spreadtask.jsx'
+import ListInReact from './day7/listand keysrendering.jsx'
 
 // import Dashboard from './Day6/conditinalrendering/dashboard.jsx'
 // import Login from './Day6/conditinalrendering/login.jsx'
@@ -38,7 +39,7 @@ import SpreadTasks from './day4/spreadtask.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    
+    <ListInReact/>
    <Greeting/>
    <Button text="Click Me"/>
    <Badge label="New"/>
