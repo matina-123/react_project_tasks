@@ -9,7 +9,7 @@ function App() {
   <Link to="/counter" >Counter</Link>
  </p>
  <Outlet/>
- <p>footer here</p>
+ <p>footer there</p>
 </>
 );
 }
