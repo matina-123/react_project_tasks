@@ -1,17 +1,15 @@
-import DestructuringTasks from "./destructuringtask";
-// import EventsExample from "./EventsExample";
-import EventTasks from "./eventtask";
-import JSXTasks from "./jsxtask";
-import SpreadTasks from "./spreadtask";
+import { Link, Outlet } from "react-router";
+
 
 function App() {
   return (
   <>
-  <JSXTasks/>
-  <EventTasks/>
-  <SpreadTasks/>
-  <DestructuringTasks/>
-
+ <p>
+  <Link to="/">Home</Link>
+  <Link to="/counter" >Counter</Link>
+ </p>
+ <Outlet/>
+ <p>footer here</p>
 </>
 );
 }
